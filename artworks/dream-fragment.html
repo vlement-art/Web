@@ -5,28 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dream Fragment | Vlement</title>
     <style>
-        body { font-family: serif; background: #0a0a0a; color: #d4af37; padding: 20px; text-align: center; }
-        .nfc-badge { font-size: 12px; border: 1px solid #d4af37; padding: 5px; display: inline-block; margin-bottom: 20px; }
-        .artwork-img { width: 100%; max-width: 600px; border: 1px solid #222; }
-        .sold { color: #ff4444; font-weight: bold; text-transform: uppercase; }
-        .info { margin: 20px 0; color: #ccc; font-family: sans-serif; }
+        body { font-family: serif; background: #0a0a0a; color: #d4af37; padding: 20px; text-align: center; margin: 0; }
+        .nfc-badge { font-size: 10px; border: 1px solid #d4af37; padding: 4px 10px; display: inline-block; margin: 20px 0; letter-spacing: 2px; }
+        .container { max-width: 800px; margin: 0 auto; }
+        .artwork-img { width: 100%; height: auto; border: 1px solid #1a1a1a; box-shadow: 0 10px 30px rgba(0,0,0,0.5); }
+        .info { margin: 30px 0; color: #aaa; font-family: sans-serif; line-height: 1.6; }
+        .sold { color: #ff4444; font-weight: bold; letter-spacing: 2px; border: 1px solid #ff4444; padding: 5px 15px; display: inline-block; margin-top: 10px; }
+        .footer { margin-top: 50px; border-top: 1px solid #222; padding-top: 20px; }
+        .footer a { color: #d4af37; text-decoration: none; font-size: 14px; }
     </style>
 </head>
 <body>
-    <div class="nfc-badge">GENUINE ARTWORK • VLEMENT</div>
-    <h1><i>Dream Fragment</i></h1>
-    
-     <img src="../Images/IMG_1595.jpeg" alt="Nombre de la Obra" style="width:100%;">
+    <div class="container">
+        <div class="nfc-badge">GENUINE ARTWORK • VLEMENT</div>
+        
+        <h1><i>Dream Fragment</i></h1>
+        
+        <!-- RUTA CORREGIDA PARA TU FOTO -->
+        <img src="../Images/IMG_1595.jpeg" class="artwork-img" alt="IMG_1595">
 
-    <img src="../images/dream-fragment.jpg" class="artwork-img" alt="Pintura">
+        <div class="info">
+            <p>Óleo sobre lienzo, 2026<br>
+            80 × 100 cm<br>
+            <span class="sold">SOLD / VENDIDO</span></p>
+            <p style="font-style: italic; max-width: 500px; margin: 20px auto;">
+                "Una exploración visual sobre los recuerdos difusos y la luz que emerge del subconsciente."
+            </p>
+        </div>
 
-    <div class="info">
-        <p>Óleo sobre lienzo, 2026</p>
-        <p>80 × 100 cm</p>
-        <p class="sold">VENDIDO</p>
+        <div class="footer">
+            <p><a href="../gallery.html">← VOLVER A LA GALERÍA</a></p>
+            <p style="font-family: sans-serif; font-size: 10px; color: #444;">© 2026 VLEMENT ART</p>
+        </div>
     </div>
-
-    <hr style="border: 0.5px solid #222;">
-    <p style="font-size: 12px;"><a href="../gallery.html" style="color: #d4af37;">Volver a la galería</a></p>
 </body>
 </html>
+
