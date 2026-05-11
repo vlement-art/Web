@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vlement | Portafolio</title>
+    <style>
+        /* Esto es el CSS: El "maquillaje" de tu web */
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            background-color: #f8f8f8; /* Un gris muy claro, casi blanco */
+            color: #333;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 3rem;
+            letter-spacing: 4px;
+            text-transform: uppercase;
+            margin-bottom: 0.5rem;
+        }
+
+        p {
+            font-size: 1.2rem;
+            color: #777;
+            margin-bottom: 2rem;
+        }
+
+        .btn-enter {
+            text-decoration: none;
+            color: #000;
+            border: 1px solid #000;
+            padding: 12px 30px;
+            transition: all 0.3s ease;
+            font-weight: bold;
+        }
+
+        .btn-enter:hover {
+            background-color: #000;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Vlement</h1>
+    <p>Visual Artist</p>
+
+    <!-- Este enlace lleva a tu galería -->
+    <a href="gallery.html" class="btn-enter">ENTER GALLERY</a>
+
+</body>
+</html>
