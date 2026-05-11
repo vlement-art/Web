@@ -5,32 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Galería | Vlement</title>
     <style>
-        body { font-family: sans-serif; background: #fff; padding: 20px; }
-        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; }
+        body { font-family: sans-serif; background: #fff; padding: 40px 20px; margin: 0; }
+        h1 { text-align: center; font-weight: 200; letter-spacing: 4px; margin-bottom: 40px; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 30px; max-width: 1200px; margin: 0 auto; }
         .item { text-align: center; }
-        .item img { width: 100%; height: auto; border: 1px solid #ddd; }
-        .item a { text-decoration: none; color: #333; font-size: 14px; }
+        .item img { width: 100%; height: auto; border: 1px solid #eee; transition: 0.3s; }
+        .item img:hover { opacity: 0.7; }
+        .item a { text-decoration: none; color: #333; }
+        .titulo { margin-top: 15px; text-transform: uppercase; font-size: 0.8rem; letter-spacing: 1px; }
     </style>
 </head>
 <body>
-    <h1 style="text-align:center;">GALERÍA</h1>
+    <h1>GALERÍA</h1>
     <div class="grid">
-        <!-- Dentro de gallery.html -->
-<div class="item">
-    <a href="artworks/dream-fragment.html">
-        <img src="Images/IMG_1595.jpeg" alt="Miniatura">
-        <p>Título de la Obra</p>
-    </a>
-</div>
-
+        <!-- BLOQUE DE OBRA -->
         <div class="item">
             <a href="artworks/dream-fragment.html">
-                <img src="images/dream-fragment.jpg" alt="Obra 1">
-
-                <p>Dream Fragment</p>
+                <img src="Images/IMG_1595.jpeg" alt="Dream Fragment">
+                <p class="titulo">Dream Fragment</p>
             </a>
         </div>
-        <!-- Aquí añadirías más bloques como el de arriba para más fotos -->
+        <!-- Fin del bloque -->
     </div>
 </body>
 </html>
